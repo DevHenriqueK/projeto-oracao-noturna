@@ -1,0 +1,64 @@
+:root {
+    --fonte-geral: Outfit;
+    --fonte-paginas-secundarias: Figtree;
+    --cor-fundo: blue;
+}
+
+.ano {
+    font-family: var(--fonte-paginas-secundarias);
+    font-size: 25px;
+}
+
+.pagina-secundaria th,
+td {
+    font-family: var(--fonte-paginas-secundarias);
+}
+
+h1 {
+    font-family: var(--fonte-geral);
+    font-size: 40px;
+    text-align: center;
+}
+
+.pagina-secundaria h1 {
+    font-family: var(--fonte-geral);
+    font-size: 40px;
+    text-align: center;
+}
+
+th,
+td {
+    border: solid 1px;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+}
+
+table {
+    display: inline-block;
+}
+
+nav,
+footer {
+    display: inline-block;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
